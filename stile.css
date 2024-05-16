@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mooli';
+}
+
+/* secao cabecalho*/
+.cabecalho {
+    background-color: #3B0050;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+    border-bottom: 2px solid #ffff00b2;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 30px;
+}
+
+.cabecalho-lista-item:hover{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* secao sobre nos*/
+.sobre_nos{
+    background-image: linear-gradient(#3B0050,#3b00501f);
+    color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    border-bottom: 2px solid #ffff00b2;
+}
+
+.sobre_nos-div-conteudo{
+    width: 650px;
+}
+.sobre_nos-titulo{
+    padding: 45px 0;
+    text-align: center;
+    font-size: 45px;
+}
+
+.sobre_nos-paragrafo{
+    font-size: 25px;
+}
+
+.sobre_nos-imagem{
+    width: 25%;
+}
+
+/* secao lojas*/
+.lojas{
+    background-color: #a9a9a9;
+}
+
+.lojas-titulo{
+color: #3B0050;
+text-align: center;
+padding: 50px;
+font-size: 45px;
+}
+
+.lojas-todosestados-div{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.loja-estado{
+    text-align: center;
+   
+}
+
+.lojas-estado-img{
+    width: 20px;
+}
+.lojas-estado-nome{
+    font-weight: 100;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+.lojas-estado-nome:hover{
+    font-weight: 100;
+    text-decoration: underline;
+    color: orange;
+}
+.lojas-estado-icone{
+    width: 30px;
+    padding: 5px 0 10px 0;
+}
+.lojas-estado-icone:hover{
+    width: 35px;
+    padding: 5px 0;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    border-top: 2px solid #ffff00b2;
+}
+
+.rodape-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffff00b2;
+}
+
+.rodape-imagem{
+    width: 100px;
+    filter: invert();
+}
